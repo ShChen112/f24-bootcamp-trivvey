@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5B933CAA2CC86196005E8B7F /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B933CA92CC86196005E8B7F /* Pokemon.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F8F99F262CC6D48F00E46AC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B933CA92CC86196005E8B7F /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		F8F99F152CC6D48D00E46AC9 /* Trivvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F99F252CC6D48F00E46AC9 /* TrivveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivveyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F99F2F2CC6D48F00E46AC9 /* TrivveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivveyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		F8F99F0C2CC6D48D00E46AC9 = {
 			isa = PBXGroup;
 			children = (
+				5B933CA92CC86196005E8B7F /* Pokemon.swift */,
 				F8F99F172CC6D48D00E46AC9 /* Trivvey */,
 				F8F99F282CC6D48F00E46AC9 /* TrivveyTests */,
 				F8F99F322CC6D48F00E46AC9 /* TrivveyUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B933CAA2CC86196005E8B7F /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
